@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: darkgray;
+    display:inline-block;
+    margin-top:20px;
+    padding:10px;
+    border-radius:10px;
+}
+.fa-virus{
+    color:rgb(165, 19, 19);
+}
+.form{
+    width:80%;
+    background-color:rgb(189, 187, 187);
+    height:auto;
+    margin:20px auto 0 auto;
+    padding:50px 20px;
+    border-radius:10px;
+}
+.oneinput{
+background-color:rgb(184, 190, 245);
+border:1px solid #000;
+width:50%;
+height:50px;
+border-radius:50px;
+text-align: center;
+position:relative;
+top:10px;
+margin:0 auto;
+
+}
+.oneinput>input{
+    height:50px;
+    background-color: transparent;
+    border:none;
+    width:80%;
+    outline:none;
+}
+.oneinput>button{
+    background-color:transparent;
+    height:18px;
+    width:18px;
+    border:none;
+    text-align:center;
+    color:rgb(134, 129, 129);
+    cursor:pointer;
+}
+.marquee{
+    font-size: 1.5rem;
+    font-weight:700;
+    margin-top:10px;
+
+}
+@media only screen and (max-width:600px){
+    .form{
+        width:90%;
+    }
+    .oneinput{
+        width:100%;
+        }
+        .head{
+          font-size:1.5rem;
+        }
+        .marquee{
+            font-size: 1rem;
+            font-weight:600;
+            margin-top:10px;
+        
+        }
+}

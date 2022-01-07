@@ -1,0 +1,62 @@
+.populatedata{
+    margin-top:20px;
+
+}
+.sameprop{
+background-color: yellow;
+width:100%;
+border-radius:20px;
+padding:20px 0;
+margin-top:20px;
+
+}
+.sameprop>span,
+.samepropone>span,
+.sameproptwo>span,
+.samepropthree>span,
+.samepropfour>span,
+.samepropfive>span{
+font-size:1.5rem;
+font-weight:500;
+
+}
+.samepropone{
+    background-color: rgb(0, 255, 55);
+    width:100%;
+    border-radius:20px;
+    padding:20px 0; 
+    margin-top:20px; 
+}
+.sameproptwo{
+    background-color: rgb(0, 217, 255);
+    width:100%;
+    border-radius:20px;
+    padding:20px 0;   
+    margin-top:20px; 
+}
+.samepropthree{
+    background-color: rgb(0, 255, 55);
+    width:100%;
+    border-radius:20px;
+    padding:20px 0; 
+    margin-top:30px; 
+}
+.samepropfour{
+    background-color: rgb(0, 217, 255);
+    width:100%;
+    border-radius:20px;
+    padding:20px 0;   
+    margin-top:30px; 
+}
+.samepropfive{
+    background-color: yellow;
+    width:100%;
+    border-radius:20px;
+    padding:20px 0;   
+    margin-top:30px;  
+}
+@media only screen and (max-width:786px){
+    .sameprop,.samepropone,.sameproptwo,.samepropthree,.samepropfour,.samepropfive{
+        padding:10px 0;
+    }
+}
